@@ -12,7 +12,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
+        android:background="@color/white"
         android:elevation="8dp"
         android:padding="16dp"
         android:layout_marginHorizontal="50dp"
@@ -67,7 +67,8 @@
                 android:text="@string/registrar"
                 android:elevation="50dp"
                 android:textColor="@color/colorMediCalendar"
-                android:theme="@style/Button.White" />
+                android:theme="@style/Button.White"
+                android:visibility="gone"/>
             <TextView
                 android:id="@+id/idgrupo"
                 android:layout_width="wrap_content"

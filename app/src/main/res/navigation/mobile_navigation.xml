@@ -10,16 +10,35 @@
         android:name="com.poligran.medicalendar.ui.inicio.InicioFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
-
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_profile"
+        android:name="com.poligran.medicalendar.ui.inicio.InicioFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_gestion_citas"
+        android:name="com.poligran.medicalendar.ui.inicio.InicioFragment"
+        android:label="@string/menu_appointment_management"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_historial_citas"
+        android:name="com.poligran.medicalendar.ui.inicio.InicioFragment"
+        android:label="@string/menu_appointment_history"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_sedes"
         android:name="com.poligran.medicalendar.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_sedes"
         tools:layout="@layout/fragment_gallery" />
-
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.poligran.medicalendar.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_web"
+        android:name="com.poligran.medicalendar.ui.web.WebFragment"
+        android:label="@string/menu_web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/nav_tutoria"
+        android:name="com.poligran.medicalendar.ui.inicio.InicioFragment"
+        android:label="@string/menu_tutorial"
+        tools:layout="@layout/fragment_home" />
+
 </navigation>

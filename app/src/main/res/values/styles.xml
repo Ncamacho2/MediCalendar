@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ScrollBarStyle" parent="@android:style/Widget.ScrollView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarSize">25dp</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+    </style>
+</resources>
