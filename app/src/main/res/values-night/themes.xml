@@ -1,16 +1,30 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MediCalendar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.MediCalendar" parent="Theme.MaterialComponents.Light">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/colorMediCalendar</item>
+        <item name="colorPrimaryVariant">@color/colorMediCalendar</item>
+        <item name="colorOnPrimary">@android:color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/colorMediCalendar</item>
+        <item name="colorSecondaryVariant">@color/colorMediCalendar</item>
+        <item name="colorOnSecondary">@android:color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:listViewStyle">@style/ScrollBarStyle</item>
     </style>
+
+    <style name="Theme.MediCalendar.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MediCalendar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MediCalendar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Button.White" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
 </resources>
