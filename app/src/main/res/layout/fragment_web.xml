@@ -11,18 +11,35 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <EditText
-            android:id="@+id/editTextUrl"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ingresa la URL"
-            android:inputType="textUri" />
+            android:padding="8dp"
+            android:text="Ingresa la URL aqui:" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
 
-        <Button
-            android:id="@+id/buttonGo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ir" />
+            <EditText
+                android:id="@+id/editTextUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingresa la URL"
+                android:inputType="textUri"
+                />
+
+            <Button
+                android:id="@+id/buttonGo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/search"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:text="Ir" />
+
+        </RelativeLayout>
+
 
         <WebView
             android:id="@+id/webView"
