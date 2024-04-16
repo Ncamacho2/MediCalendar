@@ -7,14 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.poligran.medicalendar.R
-import androidx.viewpager.widget.ViewPager
-import com.google.android.material.tabs.TabLayout
 
 private const val NombreSede = "<b><br>Nombre de la Sede: </b>"
 
