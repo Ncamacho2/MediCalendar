@@ -42,4 +42,6 @@
     <string name="apellido_usuario">Perez</string>
     <string name="documento_usuario">1234567890</string>
     <string name="nombrecompleto_usuario">Pepito Perez</string>
+    <string name="select_specialty">Seleccionar Especialidad</string>
+    <string name="select_doctor">Seleccione el Médico</string>
 </resources>

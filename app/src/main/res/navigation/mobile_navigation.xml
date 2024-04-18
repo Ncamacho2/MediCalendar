@@ -17,9 +17,9 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_gestion_citas"
-        android:name="com.poligran.medicalendar.ui.inicio.InicioFragment"
+        android:name="com.poligran.medicalendar.ui.citas.CitasManager"
         android:label="@string/menu_appointment_management"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_citas" />
     <fragment
         android:id="@+id/nav_historial_citas"
         android:name="com.poligran.medicalendar.ui.historial.HistorialFragment"

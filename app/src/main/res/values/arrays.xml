@@ -10,4 +10,6 @@
         <item>Registro civil de defunción</item>
         <item>Tarjeta de registro migratorio</item>
     </string-array>
+    <string-array name="specialties">Medico</string-array>
+    <string-array name="doctors">pepito perez</string-array>
 </resources>
