@@ -44,4 +44,5 @@
     <string name="nombrecompleto_usuario">Pepito Perez</string>
     <string name="select_specialty">Seleccionar Especialidad</string>
     <string name="select_doctor">Seleccione el Médico</string>
+    <string name="empty_menu" />
 </resources>

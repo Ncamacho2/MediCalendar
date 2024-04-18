@@ -7,6 +7,7 @@
     tools:context=".ui.inicio.InicioFragment"
     android:background="@color/colorMediCalendar"
     android:layout_gravity="center_vertical"
+    android:id="@+id/fragment_container"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
@@ -54,7 +55,8 @@
                 android:layout_marginHorizontal="50dp"
                 android:background="@drawable/frame_boton"
                 android:text="@string/iniciar_sesion"
-                android:elevation="20dp"/>
+                android:elevation="20dp"
+                android:onClick="navegar" />
             <Button
                 android:id="@+id/buttonRegistrar"
                 android:layout_width="match_parent"
