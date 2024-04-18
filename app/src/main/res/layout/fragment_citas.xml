@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nombre del paciente"
+        android:text="@string/nombrecompleto_usuario"
         android:layout_marginTop="16dp"/>
 
     <!-- Selector de especialidad médica -->

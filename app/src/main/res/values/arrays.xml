@@ -10,6 +10,33 @@
         <item>Registro civil de defunción</item>
         <item>Tarjeta de registro migratorio</item>
     </string-array>
-    <string-array name="specialties">Medico</string-array>
-    <string-array name="doctors">pepito perez</string-array>
+    <string-array name="specialties">
+        <item>Cardiología</item>
+        <item>Neurología</item>
+        <item>Oftalmología</item>
+        <item>Dermatología</item>
+        <item>Pediatría</item>
+        <item>Psiquiatría</item>
+        <item>Cirugía General</item>
+        <item>Endocrinología</item>
+        <item>Ginecología</item>
+        <item>Medicina Interna</item>
+        <item>Ortopedia</item>
+        <item>Otorrinolaringología</item>
+        <item>Urología</item>
+        <item>Radiología</item>
+        <item>Oncología</item>
+    </string-array>
+    <string-array name="doctors">
+        <item>Dr. Juan Pérez</item>
+        <item>Dra. María García</item>
+        <item>Dr. Carlos Martínez</item>
+        <item>Dra. Laura Rodríguez</item>
+        <item>Dr. José González</item>
+        <item>Dra. Ana López</item>
+        <item>Dr. Javier Ruiz</item>
+        <item>Dra. Patricia Fernández</item>
+        <item>Dr. Manuel Sánchez</item>
+        <item>Dra. Rosa Martín</item>
+    </string-array>
 </resources>
