@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="document_types">
+        <item>Cédula de ciudadanía</item>
+        <item>Tarjeta de identidad</item>
+        <item>Cédula de extranjería</item>
+        <item>Pasaporte</item>
+        <item>Registro civil de nacimiento</item>
+        <item>Registro civil de matrimonio</item>
+        <item>Registro civil de defunción</item>
+        <item>Tarjeta de registro migratorio</item>
+    </string-array>
+    <string-array name="specialties">Medico</string-array>
+    <string-array name="doctors">pepito perez</string-array>
+</resources>

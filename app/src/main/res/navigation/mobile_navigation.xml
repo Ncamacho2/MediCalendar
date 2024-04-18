@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_profile"
-        android:name="com.poligran.medicalendar.ui.inicio.InicioFragment"
+        android:name="com.poligran.medicalendar.ui.perfil.ProfileFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_gestion_citas"
-        android:name="com.poligran.medicalendar.ui.inicio.InicioFragment"
+        android:name="com.poligran.medicalendar.ui.citas.CitasManager"
         android:label="@string/menu_appointment_management"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_citas" />
     <fragment
         android:id="@+id/nav_historial_citas"
         android:name="com.poligran.medicalendar.ui.historial.HistorialFragment"
@@ -37,8 +37,8 @@
         tools:layout="@layout/fragment_web" />
     <fragment
         android:id="@+id/nav_tutoria"
-        android:name="com.poligran.medicalendar.ui.inicio.InicioFragment"
+        android:name="com.poligran.medicalendar.ui.video.VideoFragment"
         android:label="@string/menu_tutorial"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_video" />
 
 </navigation>

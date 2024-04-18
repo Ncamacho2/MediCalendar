@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="25dp" /> <!-- Ajusta el radio según sea necesario -->
+    <solid android:color="@color/colorMediCalendar" /> <!-- Color de fondo del ImageView -->
+</shape>
