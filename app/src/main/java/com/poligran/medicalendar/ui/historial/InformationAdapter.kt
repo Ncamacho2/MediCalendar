@@ -30,7 +30,9 @@ class InformationAdapter(context: Context, private val listaHistorialC: List<Inf
             val currentInformacion = listaHistorialC[position]
 
             val textViewDescripcionHistorial: TextView = itemView!!.findViewById(R.id.textViewDescripcionhistorial)
-            val concatenar = currentInformacion.fecha+currentInformacion.hora+currentInformacion.motivo+currentInformacion.estado+currentInformacion.medico+currentInformacion.sede
+            val concatenar = "${currentInformacion.fecha}<br>${currentInformacion.hora}<br>${currentInformacion.motivo}<br>${currentInformacion.estado}<br>${currentInformacion.medico}<br>${currentInformacion.sede}"
+
+            //val concatenar = currentInformacion.fecha+currentInformacion.hora+currentInformacion.motivo+currentInformacion.estado+currentInformacion.medico+currentInformacion.sede
             textViewDescripcionHistorial.text = Html.fromHtml(concatenar)
 
             val textViewDescripcionMotivo: TextView = itemView!!.findViewById(R.id.textViewDescripcionmotivo)

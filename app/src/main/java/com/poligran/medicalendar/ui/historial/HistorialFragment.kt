@@ -33,8 +33,15 @@ class HistorialFragment : Fragment() {
         val listaHistorialC = listOf(
             InformacionItem("$fecha 12/04/2024", "$hora 10:00 AM", "$motivo Consulta", "$estado Pendiente", "$medico Dr. García", "$sede Sede Chapinero"),
             InformacionItem("$fecha 13/04/2024", "$hora 11:30 AM", "$motivo Examen", "$estado Realizado", "$medico Dra. Rodríguez", "$sede Sede Usaquén"),
-            InformacionItem("$fecha 14/04/2024", "$hora 09:00 AM", "$motivo Control", "$estado Pendiente", "$medico Dr. Gómez", "$sede Sede Fontibón")
-         )
+            InformacionItem("$fecha 14/04/2024", "$hora 09:00 AM", "$motivo Control", "$estado Pendiente", "$medico Dr. Gómez", "$sede Sede Fontibón"),
+            InformacionItem("$fecha 15/04/2024", "$hora 08:00 AM", "$motivo Consulta", "$estado Pendiente", "$medico Dr. Martínez", "$sede Sede Kennedy"),
+            InformacionItem("$fecha 16/04/2024", "$hora 02:30 PM", "$motivo Examen", "$estado Realizado", "$medico Dra. Pérez", "$sede Sede Bosa"),
+            InformacionItem("$fecha 17/04/2024", "$hora 03:45 PM", "$motivo Control", "$estado Pendiente", "$medico Dr. Sánchez", "$sede Sede Engativá"),
+            InformacionItem("$fecha 18/04/2024", "$hora 11:15 AM", "$motivo Consulta", "$estado Pendiente", "$medico Dr. López", "$sede Sede Suba"),
+            InformacionItem("$fecha 19/04/2024", "$hora 04:20 PM", "$motivo Examen", "$estado Realizado", "$medico Dra. González", "$sede Sede Teusaquillo"),
+            InformacionItem("$fecha 20/04/2024", "$hora 01:00 PM", "$motivo Control", "$estado Pendiente", "$medico Dr. Ramírez", "$sede Sede Barrios Unidos")
+
+        )
 
         listViewInformationH = view.findViewById(R.id.listViewInformation)
         val adapter = InformationAdapter(requireContext(), listaHistorialC)

@@ -22,7 +22,7 @@
     <string name="registrar">Registrarse</string>
     <string name="msg_idgrupo">B01-G01 V 1.0.0</string>
 
-    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="iniciar_sesion">Ingresar</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
