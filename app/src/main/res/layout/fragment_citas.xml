@@ -1,64 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_gestion_citas"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp">
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".ui.citas.CitasFragment">
 
-    <!-- Campo de texto para el nombre del paciente -->
-    <EditText
-        android:id="@+id/patientNameEditText"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nombre del paciente"
-        android:text="@string/nombrecompleto_usuario"
-        android:layout_marginTop="16dp"/>
+        android:orientation="vertical">
 
-    <!-- Selector de especialidad médica -->
-    <Spinner
-        android:id="@+id/specialtySpinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/patientNameEditText"
-        android:layout_marginTop="16dp"
-        android:entries="@array/specialties"
-        android:prompt="@string/select_specialty"/>
+        <!-- Botón de gestión de citas (invisible) -->
+        <Button
+            android:id="@+id/boton_nueva_cita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:text="@string/menu_appointment_management"
+            tools:visibility="invisible" />
 
-    <!-- Selector de médico -->
-    <Spinner
-        android:id="@+id/doctorSpinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/specialtySpinner"
-        android:layout_marginTop="16dp"
-        android:entries="@array/doctors"
-        android:prompt="@string/select_doctor"/>
+        <!-- Spinner para especialidades -->
+        <Spinner
+            android:id="@+id/spinner_especialidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/boton_nueva_cita"
+            android:layout_marginTop="16dp" />
 
-    <!-- Selector de fecha -->
-    <Button
-        android:id="@+id/dateButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/doctorSpinner"
-        android:layout_marginTop="16dp"
-        android:text="Seleccionar fecha"/>
+        <!-- Spinner para especialistas -->
+        <Spinner
+            android:id="@+id/spinner_especialistas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner_especialidades"
+            android:layout_marginTop="16dp" />
 
-    <!-- Selector de hora -->
-    <Button
-        android:id="@+id/timeButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/dateButton"
-        android:layout_marginTop="16dp"
-        android:text="Seleccionar hora"/>
+        <!-- DatePicker para seleccionar fecha -->
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner_especialistas"
+            android:layout_marginTop="16dp" />
 
-    <!-- Botón para confirmar la cita -->
-    <Button
-        android:id="@+id/confirmButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/timeButton"
-        android:layout_marginTop="16dp"
-        android:text="Confirmar cita"/>
+        <!-- TimePicker para seleccionar hora -->
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/datePicker"
+            android:layout_marginTop="16dp" />
 
-</RelativeLayout>
+        <!-- Botones de aceptar y cancelar -->
+        <LinearLayout
+            android:id="@+id/layout_botones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp">
 
+            <Button
+                android:id="@+id/boton_aceptar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceptar"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/boton_cancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancelar"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
