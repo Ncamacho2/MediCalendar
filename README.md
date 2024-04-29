@@ -1,5 +1,5 @@
 MediCalendar
-![image](https://github.com/Ncamacho2/MediCalendar/assets/41797822/ee12fccb-3b5a-4282-b0d6-df0831ec7a06){width=200px}
+![image](https://github.com/Ncamacho2/MediCalendar/assets/41797822/ee12fccb-3b5a-4282-b0d6-df0831ec7a06)
 
 ## Funcionalidades MediCalendar
 
@@ -26,6 +26,7 @@ https://www.figma.com/file/0zSZEwAl72ayNJg11fW1Aq/Mockup---Herramientas-Moviles?
 
 ## Diagrama UML
 
+![image](https://github.com/Ncamacho2/MediCalendar/assets/41797822/1d63a8e1-2702-48ca-85fa-f3d59f6cd588)
 
 ## Documento maestro
 
